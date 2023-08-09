@@ -1,0 +1,13 @@
+.CardBig {
+  width: 22rem;
+  border: solid black;
+}
+
+.CardSmall {
+  width: 8rem;
+  border: solid black;
+}
+
+.heading {
+  font-size: large;
+}

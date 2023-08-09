@@ -1,0 +1,42 @@
+.header {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  padding: 1rem 2rem 1rem 2rem;
+  box-shadow: 0px 0px 3px 0px;
+}
+
+input {
+  width: 40rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: grey solid 1px;
+}
+
+.searchicon {
+  margin-top: 10px;
+  z-index: 2;
+  margin-left: -25px;
+}
+
+.search {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-elements {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-element {
+  margin-top: 0.4rem;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.header-element:hover {
+  color: grey;
+}

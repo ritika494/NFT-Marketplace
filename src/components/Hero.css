@@ -1,0 +1,35 @@
+.Hero {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.HeroCards {
+  display: flex;
+  flex-direction: column;
+}
+
+.CardRows {
+  display: flex;
+  flex-direction: row;
+}
+
+.HeroText {
+  font-size: large;
+}
+
+.HeroButtons {
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+
+button {
+  background-color: rgb(32, 129, 226); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
